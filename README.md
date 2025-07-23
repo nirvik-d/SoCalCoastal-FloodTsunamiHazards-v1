@@ -12,7 +12,7 @@ A web application that displays flood and tsunami hazard zones for coastal South
 ## Screenshots
 
 The main application
-
+<img width="959" height="479" alt="image" src="https://github.com/user-attachments/assets/8ac89383-8758-4575-8ff4-64bdb898db2b" />
 
 ## Prerequisites
 
