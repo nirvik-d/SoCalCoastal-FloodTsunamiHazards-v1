@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoCalCoastal Flood Hazard</title>
+  </head>
+  <body>
+    <arcgis-map basemap="topo-vector" center="-117.9988, 33.6595" zoom="8">
+      <arcgis-zoom position="top-left"></arcgis-zoom>
+      <arcgis-expand position="top-left">
+        <arcgis-basemap-gallery></arcgis-basemap-gallery>
+      </arcgis-expand>
+      <arcgis-placement position="top-right">
+        <calcite-button id="flood-hazard">Flood Hazard</calcite-button> <br />
+      </arcgis-placement>
+      <arcgis-placement position="top-right">
+        <calcite-button id="tsunami-hazard">Tsunami Hazard</calcite-button>
+      </arcgis-placement>
+    </arcgis-map>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
